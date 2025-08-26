@@ -1,0 +1,13 @@
+{
+  "name": "todo-app",
+  "private": true,
+  "workspaces": [
+    "todo-web",
+    "todo-mobile",
+    "todo-utils"
+  ],
+  "scripts": {
+    "dev:web": "npm --workspace todo-web run dev",
+    "dev:mobile": "npm --workspace todo-mobile run start"
+  }
+}
